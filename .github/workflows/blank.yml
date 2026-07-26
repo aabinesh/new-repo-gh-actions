@@ -8,5 +8,9 @@ jobs:
         run: echo "Hello World"
       - name: print goodbye
         run: echo "Good Bye"
+      - name: Store data in variable
+        run: echo "FOO=bar" >> $GITHUB_ENV
+      - name: print variable
+        run: echo $FOO
   
   
