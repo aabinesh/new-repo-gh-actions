@@ -13,6 +13,6 @@ jobs:
       - name: print variable
         run: echo $FOO
       - name: print run numb3r
-        run: echo GITHUB_RUN_NUMBER
+        run: echo $GITHUB_RUN_NUMBER
   
   
