@@ -12,5 +12,7 @@ jobs:
         run: echo "FOO=bar" >> $GITHUB_ENV
       - name: print variable
         run: echo $FOO
+      - name: print run numb3r
+        run: echo GITHUB_RUN_NUMBER
   
   
